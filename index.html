@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUREFY</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/gota.ICO.png" class="logohead">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoplaneta.png" alt="logo planeta" class="imagem1" >
+        </div>
+        <h1>INSTITUTO PUREFY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina1.html">Água</a></li>
+                <li><a href="pagina2.html">Esgoto</a></li>
+                <li><a href="pagina3.html">Saneamento</a></li>
+                <li><a href="pagina4.html">Meio Ambiente</a></li>
+                <li><a href="pagina5.html">Dessanalização</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="text">
+            <h2>Quem somos nós?</h2>
+            <p>Somos um grupo de pessoas extremamente preoupadas com a visibilidade dos acontecimentos ambientais e transmissão de conteudo sobre ecologia e sustentabilidade</p><br>
+        </section>
+        <section class="text">
+            <h2>Qual o objetivo da sustentabilidade?</h2>
+            <img src="img/sustentavel.jpeg" alt="imagem sustentavel" class="imagem2">
+            <p>Busca-se o equilíbrio entre desenvolvimento econômico, responsabilidade social e preservação ambiental, visando evitar a exaustão dos recursos naturais e minimizar impactos adversos.<br><br>
+            Ao adotar práticas sustentáveis, projetamos um futuro mais próspero, com biodiversidade, respeito ao meio ambiente e riqueza compartilhada  <br><br> 
+            Dessa forma, o planeta pode ser um ambiente saudável, com igualdade entre pessoas e crescimento econômico duradouro.</p><br>
+        </section>
+        <section>
+            <h2>O tripé da sustentabilidade</h2>
+            <h3>Sustentabilidade Ambiental</h3>
+            <p>Cuida das condições de produção e consumo, de forma a assegurar que o meio ambiente tenha condições de se autorregenerar, respeitando os limites biológicos de recuperação do ecossistema.
+            Sabe-se que toda atividade produtiva resulta em um impacto ambiental negativo.                
+            Em resposta, esse pilar trata das condições de se minimizar esses resultados e, na impossibilidade disso, implementar maneiras de compensação ambiental.</p>
+            <h3>Sustentabilidade Social</h3>
+            <p>Sob esse prisma, a sustentabilidade deve contemplar as condições para que todas as pessoas tenham os recursos necessários para uma vida saudável e de boa qualidade.
+            Nessa definição de sustentabilidade, encontra-se implícita a redução ou erradicação da pobreza.                
+            É fundamental garantir a disponibilidade dos recursos naturais para as próximas gerações.</p>
+            <h3>Sustentabilidade Econômica</h3>
+            <p>Na dimensão da sustentabilidade econômica, é analisada a questão da eficiência, ou mais propriamente dita, da ecoeficiência.
+            Estamos falando da busca por formas de redução do consumo de recursos naturais, em especial, das fontes fósseis de energia (como carvão e petróleo) e daqueles mal distribuídos, como a água, sem comprometer o ritmo de crescimento econômico.</p>
+        </section>
+        <form name="meu_form" class="form">
+            <h2 class="tituloform">Entre em contato</h2>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" class="caixa"/><br>
+
+            <label for="telefone">Telefone</label>
+            <input type="telefone" id="telefone" placeholder="(xx)xx-xx-xx-xx" name="telefone" class="caixa" /><br>
+          
+            <label for="email">Email</label>
+            <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" class="caixa" /><br>
+          
+            <label for="recado">Escreva uma mensagem</label>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+          
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" class="caixa"/>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Yasmin Gonçalves Carmona</p>
+    </footer>
+</body>
+</html>
