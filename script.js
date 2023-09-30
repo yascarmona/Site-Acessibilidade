@@ -1,5 +1,4 @@
 Document.getElementById('meuFormulario').addEventListener('submit', function (e) {
-    var nome = document.getElementById('nome').value;
     var fone = document.getElementById('telefone').value;
     var email = document.getElementById('email').value;
 
@@ -15,7 +14,6 @@ Document.getElementById('meuFormulario').addEventListener('submit', function (e)
         return;
     }
 
-    if (nome.value != "") {
-        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+        alert(' Obrigado! Suas informações foram encaminhadas com sucesso! :D');
     }
 });
